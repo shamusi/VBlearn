@@ -22,29 +22,40 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnIntMath = New System.Windows.Forms.Button()
+        Me.btnsubString = New System.Windows.Forms.Button()
+        Me.txtString = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
-        'btnIntMath
+        'btnsubString
         '
-        Me.btnIntMath.Location = New System.Drawing.Point(111, 154)
-        Me.btnIntMath.Name = "btnIntMath"
-        Me.btnIntMath.Size = New System.Drawing.Size(75, 23)
-        Me.btnIntMath.TabIndex = 0
-        Me.btnIntMath.Text = "Math Test"
-        Me.btnIntMath.UseVisualStyleBackColor = True
+        Me.btnsubString.Location = New System.Drawing.Point(111, 154)
+        Me.btnsubString.Name = "btnsubString"
+        Me.btnsubString.Size = New System.Drawing.Size(75, 23)
+        Me.btnsubString.TabIndex = 0
+        Me.btnsubString.Text = "Substring"
+        Me.btnsubString.UseVisualStyleBackColor = True
+        '
+        'txtString
+        '
+        Me.txtString.Location = New System.Drawing.Point(111, 116)
+        Me.txtString.Name = "txtString"
+        Me.txtString.Size = New System.Drawing.Size(100, 20)
+        Me.txtString.TabIndex = 1
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 261)
-        Me.Controls.Add(Me.btnIntMath)
+        Me.Controls.Add(Me.txtString)
+        Me.Controls.Add(Me.btnsubString)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents btnIntMath As Button
+    Friend WithEvents btnsubString As Button
+    Friend WithEvents txtString As TextBox
 End Class

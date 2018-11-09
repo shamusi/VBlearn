@@ -13,3 +13,10 @@ C:\Users\las\Documents\Visual Studio 2015\Projects\Integer Math\Integer Math\bin
 C:\Users\las\Documents\Visual Studio 2015\Projects\Integer Math\Integer Math\obj\Debug\Integer Math.exe
 C:\Users\las\Documents\Visual Studio 2015\Projects\Integer Math\Integer Math\obj\Debug\Integer Math.xml
 C:\Users\las\Documents\Visual Studio 2015\Projects\Integer Math\Integer Math\obj\Debug\Integer Math.pdb
+C:\Users\las\Documents\Visual Studio 2015\Projects\Integer Math\Integer Math\bin\Debug\Integer Math.exe
+C:\Users\las\Documents\Visual Studio 2015\Projects\Integer Math\Integer Math\bin\Debug\Integer Math.pdb
+C:\Users\las\Documents\Visual Studio 2015\Projects\Integer Math\Integer Math\bin\Debug\Integer Math.xml
+C:\Users\las\Documents\Visual Studio 2015\Projects\Integer Math\Integer Math\obj\Debug\Integer Math.vbprojResolveAssemblyReference.cache
+C:\Users\las\Documents\Visual Studio 2015\Projects\Integer Math\Integer Math\obj\Debug\Integer_Math.Form1.resources
+C:\Users\las\Documents\Visual Studio 2015\Projects\Integer Math\Integer Math\obj\Debug\Integer_Math.Resources.resources
+C:\Users\las\Documents\Visual Studio 2015\Projects\Integer Math\Integer Math\obj\Debug\Integer Math.vbproj.GenerateResource.Cache
