@@ -24,11 +24,12 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.btnsubString = New System.Windows.Forms.Button()
         Me.txtString = New System.Windows.Forms.TextBox()
+        Me.lstData = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
         'btnsubString
         '
-        Me.btnsubString.Location = New System.Drawing.Point(111, 154)
+        Me.btnsubString.Location = New System.Drawing.Point(12, 38)
         Me.btnsubString.Name = "btnsubString"
         Me.btnsubString.Size = New System.Drawing.Size(75, 23)
         Me.btnsubString.TabIndex = 0
@@ -37,16 +38,26 @@ Partial Class Form1
         '
         'txtString
         '
-        Me.txtString.Location = New System.Drawing.Point(111, 116)
+        Me.txtString.Location = New System.Drawing.Point(12, 12)
         Me.txtString.Name = "txtString"
         Me.txtString.Size = New System.Drawing.Size(100, 20)
         Me.txtString.TabIndex = 1
+        '
+        'lstData
+        '
+        Me.lstData.FormattingEnabled = True
+        Me.lstData.IntegralHeight = False
+        Me.lstData.Location = New System.Drawing.Point(242, 94)
+        Me.lstData.Name = "lstData"
+        Me.lstData.Size = New System.Drawing.Size(164, 144)
+        Me.lstData.TabIndex = 2
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.ClientSize = New System.Drawing.Size(582, 292)
+        Me.Controls.Add(Me.lstData)
         Me.Controls.Add(Me.txtString)
         Me.Controls.Add(Me.btnsubString)
         Me.Name = "Form1"
@@ -58,4 +69,5 @@ Partial Class Form1
 
     Friend WithEvents btnsubString As Button
     Friend WithEvents txtString As TextBox
+    Friend WithEvents lstData As ListBox
 End Class
