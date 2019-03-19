@@ -1,7 +1,7 @@
 ﻿Module Module1
 
     Sub Main()
-        ' this is my first
+
         Dim mytest As String = "My name is Shamusi"
 
         Dim CA() As Char = mytest.ToCharArray
