@@ -2,16 +2,45 @@
 
     Sub Main()
 
-        Dim mytest As String = "My name is Shamusi"
+        Console.WriteLine("The Name Game")
 
-        Dim CA() As Char = mytest.ToCharArray
-        Array.Reverse(CA)
+        Console.Write("what is your name")
+        Dim firstname As String = Console.ReadLine()
 
-        For i = 0 To CA.Length - 1
-            Console.WriteLine(CA(i))
+        Console.Write("what is your last name")
+        Dim secondName As String = Console.ReadLine()
+
+
+        Dim charfirstname As Char()
+        charfirstname = firstname.ToCharArray
+        Array.Reverse(charfirstname)
+
+        Dim charlastname As Char()
+        charlastname = secondName.ToCharArray
+        Array.Reverse(charlastname)
+
+        'Console.WriteLine(charfirstname)
+        'Console.WriteLine(charlastname)
+
+        For Each items In charfirstname
+            Console.WriteLine(items)
+
         Next
 
-        Console.Read()
+
+
+
+        For index = 0 To charlastname.Length - 1
+
+            Console.WriteLine(charlastname(index))
+
+        Next
+
+        Console.ReadLine()
+
+
+
+
     End Sub
 
 End Module
